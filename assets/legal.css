@@ -37,7 +37,9 @@ html[data-app="florytics"]   { --accent: #2f6b45; --accent-soft: rgba(47, 107, 6
 html[data-app="lexinfy"]     { --accent: #4f46e5; --accent-soft: rgba(79, 70, 229, .08); }
 html[data-app="jumpilio"]    { --accent: #0e7490; --accent-soft: rgba(14, 116, 144, .08); }
 html[data-app="mycarlytics"] { --accent: #1976d2; --accent-soft: rgba(25, 118, 210, .08); }
+html[data-app="bitty"]       { --accent: #b2591a; --accent-soft: rgba(232, 131, 58, .10); }
 @media (prefers-color-scheme: dark) {
+  html[data-app="bitty"]       { --accent: #f0a56e; --accent-soft: rgba(240, 165, 110, .10); }
   html[data-app="florytics"]   { --accent: #96d5a6; --accent-soft: rgba(150, 213, 166, .10); }
   html[data-app="lexinfy"]     { --accent: #a5b4fc; --accent-soft: rgba(165, 180, 252, .10); }
   html[data-app="jumpilio"]    { --accent: #3ddcff; --accent-soft: rgba(61, 220, 255, .10); }

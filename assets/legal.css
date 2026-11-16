@@ -40,7 +40,9 @@ html[data-app="mycarlytics"] { --accent: #1976d2; --accent-soft: rgba(25, 118, 2
 html[data-app="healthlytics"] { --accent: #0f8b8d; }
 html[data-app="bitty"]       { --accent: #b2591a; --accent-soft: rgba(232, 131, 58, .10); }
 html[data-app="brainstage"] { --accent: #b07a12; }
+html[data-app="lumishot"] { --accent: #3d5aa8; }
 @media (prefers-color-scheme: dark) {
+  html[data-app="lumishot"] { --accent: #8fb4ff; }
   html[data-app="brainstage"] { --accent: #f5b544; }
   html[data-app="healthlytics"] { --accent: #4fc3c5; }
   html[data-app="bitty"]       { --accent: #f0a56e; --accent-soft: rgba(240, 165, 110, .10); }

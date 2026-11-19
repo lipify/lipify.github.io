@@ -12,7 +12,7 @@
 <header class="doc-head">
   <p class="app">Florytics</p>
   <h1>Privacy Policy for Florytics</h1>
-  <p class="updated">Last updated: November 6, 2026</p>
+  <p class="updated">Last updated: November 19, 2026</p>
 </header>
 <main class="doc">
 
@@ -48,7 +48,7 @@
 
     <h3>3.3 Notifications Permission</h3>
     <p><strong>Why we need it:</strong> To send you reminders when it's time to water or fertilize your plants.</p>
-    <p><strong>How we use it:</strong> Notifications are generated locally on your device based on the care schedules you set. If a watering is missed, Florytics may remind you again over the next two days. Reminders include "Watered" and "Remind in 3 hours" buttons; tapping them updates your plant's care history on your device.</p>
+    <p><strong>How we use it:</strong> Notifications are generated locally on your device based on the care schedules you set. If a watering is missed, Florytics may remind you again once a day for up to two weeks. Several reminders due at the same time may be grouped into one notification. Reminders include "Watered" and "Remind in 3 hours" buttons; tapping them updates your plant's care history on your device.</p>
 
     <h3>3.4 Reminder Scheduling</h3>
     <p>Florytics does not request the exact alarm permission. Reminders are scheduled with Android's standard alarm system, so the system may deliver them a few minutes earlier or later than the time you set.</p>
@@ -60,6 +60,14 @@
     <h3>3.6 Vibration Permission</h3>
     <p><strong>Why we need it:</strong> To provide haptic feedback for notifications and interactions.</p>
     <p><strong>How we use it:</strong> Enhances the user experience with tactile feedback.</p>
+
+    <h3>3.7 Home Screen Widget</h3>
+    <p><strong>What it shows:</strong> If you add a Florytics widget to your home screen, it shows the names of the plants that need watering today. Anyone who can see your home screen can see these names.</p>
+    <p><strong>How it works:</strong> The widget reads your plant data from the app on your device. With Florytics Pro you can mark a plant as watered from the widget; this updates your care history on your device in the same way as the "Watered" button in a reminder. Nothing is sent off your device. To stop showing the widget, remove it from your home screen.</p>
+
+    <h3>3.8 Background Work</h3>
+    <p><strong>Why we need it:</strong> Android's background task scheduler (WorkManager) uses the wake lock permission to finish short tasks, such as recording a watering from the widget, while the screen is off.</p>
+    <p><strong>How we use it:</strong> These tasks run only on your device and only for a few seconds.</p>
 
     <h2>4. How We Use Your Information</h2>
     <p>Since all data is stored locally on your device:</p>
